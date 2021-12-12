@@ -1,28 +1,42 @@
 import React, { Component } from 'react';
-import web3 from '../ethereum/web3';
+import { Card, Button } from 'semantic-ui-react';
 import factory from '../ethereum/factory';
-import CampaignFactory from '../ethereum/build/CampaignFactory.json'
-import Web3 from "web3";
-import { useState, useEffect } from 'react';
+import Layout from '../components/Layout';
 
-export default function CampaignIndex() {
-    useEffect(() => {
-        async function start() {
-            window.ethereum.request({ method: "eth_requestAccounts" });
-            const web3 = new Web3(window.ethereum);
+class CampaignIndex extends Component {
 
-            const instance = new web3.eth.Contract(
-                JSON.parse(CampaignFactory.interface),
-                '0x2C96c85711AA3a3393F72a688527CC44f61372a0'
-            );
+    static async getInitialProps() {
+        // Donot have to create any instance to access it
+        const campaigns = await factory.methods.getDeployedCampaigns().call();
+        return { campaigns: campaigns };
+    }
 
-            const campaigns = await instance.methods.getDeployedCampaigns().call();
-            console.log(campaigns);
-        }
-        start();
+    renderCampaigns() {
+        const items = this.props.campaigns.map(address => {
+            return {
+                header: address,
+                description: <a>View Campaign</a>,
+                fluid: true
+            }
+        });
+        return <Card.Group items={items} />
+    }
 
-    }, []);
-
-    return <div>Campaign Index Page.....</div>
-
+    render() {
+        return (
+            <Layout>
+                <div>
+                    <h3>Open Campaigns</h3>
+                    <Button
+                        floated='right'
+                        content='Create Campaign'
+                        icon="add circle"
+                        primary />
+                    {this.renderCampaigns()}
+                </div>
+            </Layout>
+        )
+    }
 };
+
+export default CampaignIndex;
