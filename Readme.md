@@ -75,8 +75,15 @@ To overcome this Problem, **Crowdfunding** is a Platform which is distributed an
 - Now, Approvers can approve the spending request by voting (Approvers are those who contributed into the campaign with atleast minimum amount)
 - After getting enough approvals (Approvals > TotalApprovals/2) then the money contributed by the contributers till now will get transferred to the provided wallet.
 
-### Smart Contract Used <a name = "usage"></a>
+### Smart Contract Used <a name = "contract"></a>
 
 <br>
 
-![Contract Factory](./images/1.png)
+![Campaign Factory](./images/CampaignFactory.png)
+![Campaign Variables](./images/CampaignVariables.png)
+![Campaign Functions](./images/CampaignFunctions.png)
+
+### Future Scope <a name = "future"></a> :blush: :blush:
+
+- :rocket: Feel free to make this System more robust and You can contact me over my social handles provided above at the top.
+- :airplane: Don't forget to Follow and Give a Star. Peace :v:
