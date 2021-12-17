@@ -1,7 +1,7 @@
 # CrowdFunding
 
 This is a Platform where People can make their Campaign that can be based on anything like Raising money for a Spoon :sweat*smile:
-This Platform is inspired from <u><a href = "https://www.kickstarter.com/">Kickstarter</a></u> but a \_Decentralized and Distributed* version which makes it less prone to any scammer activities.
+This Platform is inspired from <u><a href = "https://www.kickstarter.com/">Kickstarter</a></u> but a Decentralized and Distributed* version which makes it less prone to any scammer activities.
 
 ## Technologies Used
 
@@ -65,4 +65,7 @@ CrowdFunding (Main Project)
     |   Campaign.test.js
 ```
 
-### Why CrowdFunding ?
+### Why CrowdFunding ? :smiley:
+
+At the <u><a href = "https://www.kickstarter.com/">Kickstarter</a></u> You can raise funds for your Project (Can create a campaign). People do create campaigns and gets funds by a no. of contributers. The main Problem with this Platform is One can scam others by creating a visual appealing campaign, and can run away with the money raised. <br><br>
+To overcome this Problem, **Crowdfunding** is a Platform which is distributed and decentralized with a Proper voting system. The Process of raising funding through Crowdfunding is as follows
