@@ -25,7 +25,7 @@ This Platform is inspired from <u><a href = "https://www.kickstarter.com/">Kicks
 1. [Usage](#usage)
 2. [Directory Structure](#dir)
 3. [Why CrowdFunding ?](#why)
-4. [Smart Contract Defination](#contract)
+4. [Smart Contract Used](#contract)
 5. [Future Scope](#future)
 
 ### Usage <a name = "usage"></a>
@@ -68,4 +68,15 @@ CrowdFunding (Main Project)
 ### Why CrowdFunding ? :smiley:
 
 At the <u><a href = "https://www.kickstarter.com/">Kickstarter</a></u> You can raise funds for your Project (Can create a campaign). People do create campaigns and gets funds by a no. of contributers. The main Problem with this Platform is One can scam others by creating a visual appealing campaign, and can run away with the money raised. <br><br>
-To overcome this Problem, **Crowdfunding** is a Platform which is distributed and decentralized with a Proper voting system. The Process of raising funding through Crowdfunding is as follows
+To overcome this Problem, **Crowdfunding** is a Platform which is distributed and decentralized with a Proper voting system. The Process of raising funding through Crowdfunding is as follows :wink:
+
+- Campaign is created _(Manager - The one who creates the campaign)_ with some minimum contribution set limit.
+- If manager needs funds then H/She have to create a Spending request with address of wallet provided(The address to whom the money of contributers will be sent).
+- Now, Approvers can approve the spending request by voting (Approvers are those who contributed into the campaign with atleast minimum amount)
+- After getting enough approvals (Approvals > TotalApprovals/2) then the money contributed by the contributers till now will get transferred to the provided wallet.
+
+### Smart Contract Used <a name = "usage"></a>
+
+<br>
+
+![Contract Factory](./images/1.png)
