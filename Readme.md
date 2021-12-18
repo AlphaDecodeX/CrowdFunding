@@ -68,7 +68,7 @@ CrowdFunding (Main Project)
 ### Why CrowdFunding ?<a name = "why"></a> :smiley:
 
 At the <u><a href = "https://www.kickstarter.com/">Kickstarter</a></u> You can raise funds for your Project (Can create a campaign). People do create campaigns and gets funds by a no. of contributers. The main Problem with this Platform is One can scam others by creating a visual appealing campaign, and can run away with the money raised. <br><br>
-To overcome this Problem, **Crowdfunding** is a Platform which is distributed and decentralized with a Proper voting system. The Process of raising funding through Crowdfunding is as follows :wink:
+To overcome this Problem, _Crowdfunding_ is a Platform which is distributed and decentralized with a Proper voting system. The Process of raising funding through Crowdfunding is as follows :wink:
 
 - Campaign is created _(Manager - The one who creates the campaign)_ with some minimum contribution set limit.
 - If manager needs funds then H/She have to create a Spending request with address of wallet provided(The address to whom the money of contributers will be sent).
